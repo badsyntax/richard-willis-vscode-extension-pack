@@ -15,6 +15,7 @@ You can use it too.
     "editor.renderWhitespace": "all",
     "java.implementationsCodeLens.enabled": true,
     "java.referencesCodeLens.enabled": true,
+    "java.configuration.checkProjectSettingsExclusions": false,
     "breadcrumbs.enabled": true,
     "editor.formatOnSave": false,
     "[css]": {
@@ -23,5 +24,11 @@ You can use it too.
     "eslint.autoFixOnSave": true,
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "[dockerfile]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
+```
