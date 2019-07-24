@@ -3,7 +3,7 @@
     "displayName": "Richard Willis Extension Pack",
     "publisher": "richardwillis",
     "description": "Extension pack for Richard Willis",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "repository": "https://github.com/badsyntax/richard-willis-vscode-extension-pack",
     "engines": {
         "vscode": "^1.36.0"
