@@ -1,34 +1,34 @@
 {
-    "name": "richard-willis-extension-pack",
-    "displayName": "Richard Willis Extension Pack",
-    "publisher": "richardwillis",
-    "description": "Extension pack for Richard Willis",
-    "version": "0.1.0",
-    "repository": "https://github.com/badsyntax/richard-willis-vscode-extension-pack",
-    "engines": {
-        "vscode": "^1.36.0"
-    },
-    "categories": [
-        "Extension Packs"
-    ],
-    "extensionPack": [
-        "DavidAnson.vscode-markdownlint",
-        "dbaeumer.vscode-eslint",
-        "eamodio.gitlens",
-        "EditorConfig.EditorConfig",
-        "esbenp.prettier-vscode",
-        "foxundermoon.shell-format",
-        "ionutvmi.path-autocomplete",
-        "ms-azuretools.vscode-docker",
-        "ms-vscode.Go",
-        "msjsdiag.debugger-for-chrome",
-        "naco-siren.gradle-language",
-        "redhat.vscode-xml",
-        "redhat.vscode-yaml",
-        "rogalmic.bash-debug",
-        "shinnn.stylelint",
-        "timonwong.shellcheck",
-        "Tyriar.sort-lines",
-        "vscjava.vscode-java-pack"
-    ]
+  "name": "richard-willis-extension-pack",
+  "displayName": "Richard Willis Extension Pack",
+  "publisher": "richardwillis",
+  "description": "Extension pack for Richard Willis",
+  "version": "0.1.0",
+  "repository": "https://github.com/badsyntax/richard-willis-vscode-extension-pack",
+  "engines": {
+    "vscode": "^1.36.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "DavidAnson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "foxundermoon.shell-format",
+    "ionutvmi.path-autocomplete",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode.Go",
+    "msjsdiag.debugger-for-chrome",
+    "naco-siren.gradle-language",
+    "redhat.vscode-xml",
+    "redhat.vscode-yaml",
+    "rogalmic.bash-debug",
+    "shinnn.stylelint",
+    "timonwong.shellcheck",
+    "Tyriar.sort-lines",
+    "vscjava.vscode-java-pack"
+  ]
 }
