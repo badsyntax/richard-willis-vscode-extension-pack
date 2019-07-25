@@ -17,6 +17,7 @@
     "eamodio.gitlens",
     "EditorConfig.EditorConfig",
     "esbenp.prettier-vscode",
+    "flowtype.flow-for-vscode",
     "foxundermoon.shell-format",
     "ionutvmi.path-autocomplete",
     "ms-azuretools.vscode-docker",
