@@ -2,6 +2,8 @@
 
 You can use it too.
 
+Create your own extension pack: https://code.visualstudio.com/blogs/2017/03/07/extension-pack-roundup
+
 ## Settings
 
 ```json
