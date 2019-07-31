@@ -20,17 +20,20 @@ Create your own extension pack: https://code.visualstudio.com/blogs/2017/03/07/e
     "java.configuration.checkProjectSettingsExclusions": false,
     "breadcrumbs.enabled": true,
     "editor.formatOnSave": false,
+    "eslint.autoFixOnSave": true,
     "[css]": {
         "editor.formatOnSave": true
-    },
-    "eslint.autoFixOnSave": true,
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[dockerfile]": {
         "editor.defaultFormatter": "foxundermoon.shell-format"
     },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.suggestSelection": "first",
