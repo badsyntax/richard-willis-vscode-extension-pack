@@ -30,6 +30,9 @@ Create your own extension pack: https://code.visualstudio.com/blogs/2017/03/07/e
     "[dockerfile]": {
         "editor.defaultFormatter": "foxundermoon.shell-format"
     },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
