@@ -31,6 +31,7 @@ Create your own extension pack: https://code.visualstudio.com/blogs/2017/03/07/e
         "editor.formatOnSave": true,
     },
     "[shellscript]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format",
         "editor.formatOnSave": true,
     },
     "[dockerfile]": {
@@ -58,5 +59,4 @@ Create your own extension pack: https://code.visualstudio.com/blogs/2017/03/07/e
         "editor.formatOnSave": false,
     }
 }
-
 ```
