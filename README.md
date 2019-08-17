@@ -14,29 +14,49 @@ Create your own extension pack: https://code.visualstudio.com/blogs/2017/03/07/e
     },
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
-    "editor.renderWhitespace": "all",
     "java.implementationsCodeLens.enabled": true,
     "java.referencesCodeLens.enabled": true,
     "java.configuration.checkProjectSettingsExclusions": false,
     "breadcrumbs.enabled": true,
+    "editor.renderWhitespace": "all",
+    "editor.suggestSelection": "first",
     "editor.formatOnSave": false,
     "eslint.autoFixOnSave": true,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "go.enableCodeLens": {
+        "references": false,
+        "runtest": true
+    },
     "[css]": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+    },
+    "[shellscript]": {
+        "editor.formatOnSave": true,
     },
     "[dockerfile]": {
-        "editor.defaultFormatter": "foxundermoon.shell-format"
+        "editor.defaultFormatter": "foxundermoon.shell-format",
+        "editor.formatOnSave": true,
     },
     "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
     },
     "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
     },
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false,
+    }
 }
+
 ```
