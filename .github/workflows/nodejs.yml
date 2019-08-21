@@ -1,14 +1,12 @@
 name: Node CI
 
 on:
-  push:
-    branches:
-    - master
+  release
 
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
 
     strategy:
       matrix:
@@ -30,7 +28,7 @@ jobs:
       run: |
         git config --global user.email "willis.rh@gmail.com"
         git config --global user.name "Richard Willis"
-        vsce publish -p $AZURE_TOKEN patch
+        vsce publish -p $AZURE_TOKEN $GITHUB_REF
     - name: publish-github
       env:
         GITHUB_PUSH_TOKEN: ${{ secrets.GITHUB_PUSH_TOKEN }}
