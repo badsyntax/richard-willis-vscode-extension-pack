@@ -20,12 +20,17 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    - name: package
+      run: |
+        npm install -g vsce
+        vsce package
     - name: publish
       env:
         AZURE_TOKEN: ${{ secrets.AZURE_TOKEN }}
+        GITHUB_PUSH_TOKEN: ${{ secrets.GITHUB_PUSH_TOKEN }}
       run: |
         git config --global user.email "willis.rh@gmail.com"
         git config --global user.name "Richard Willis"
-        npm install -g vsce
-        vsce package
-        vsce publish -p $AZURE_TOKEN minor 
+        git remote add origin "https://badsyntax:$GITHUB_PUSH_TOKEN@github.com/badsyntax/richard-willis-vscode-extension-pack.git"
+        vsce publish -p $AZURE_TOKEN patch
+        git push
