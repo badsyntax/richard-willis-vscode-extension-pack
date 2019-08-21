@@ -28,4 +28,4 @@ jobs:
         git config --global user.name "Richard Willis"
         npm install -g vsce
         vsce package
-        vsce publish minor -p $AZURE_TOKEN
+        vsce publish -p $AZURE_TOKEN minor 
