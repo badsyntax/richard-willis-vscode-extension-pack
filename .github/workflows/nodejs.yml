@@ -24,6 +24,8 @@ jobs:
       env:
         AZURE_TOKEN: ${{ secrets.AZURE_TOKEN }}
       run: |
+        git config --global user.email "willis.rh@gmail.com"
+        git config --global user.name "Richard Willis"
         npm install -g vsce
         vsce package
         vsce publish minor -p $AZURE_TOKEN
