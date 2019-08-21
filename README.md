@@ -30,15 +30,20 @@ Create your own extension pack: https://code.visualstudio.com/blogs/2017/03/07/e
     "references": false,
     "runtest": true
   },
-  "[css]": {
-    "editor.formatOnSave": true
-  },
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format",
     "editor.formatOnSave": true
   },
   "[dockerfile]": {
     "editor.defaultFormatter": "foxundermoon.shell-format",
+    "editor.formatOnSave": true
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
   "[json]": {
@@ -60,6 +65,9 @@ Create your own extension pack: https://code.visualstudio.com/blogs/2017/03/07/e
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": false
+  },
+  "[python]": {
+    "editor.formatOnSave": true
   }
 }
 ```
