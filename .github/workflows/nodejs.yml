@@ -31,6 +31,6 @@ jobs:
       run: |
         git config --global user.email "willis.rh@gmail.com"
         git config --global user.name "Richard Willis"
-        git remote add origin "https://badsyntax:$GITHUB_PUSH_TOKEN@github.com/badsyntax/richard-willis-vscode-extension-pack.git"
+        git remote set-url origin "https://badsyntax:$GITHUB_PUSH_TOKEN@github.com/badsyntax/richard-willis-vscode-extension-pack.git"
         vsce publish -p $AZURE_TOKEN patch
         git push
