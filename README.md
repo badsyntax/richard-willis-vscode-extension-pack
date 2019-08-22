@@ -1,10 +1,10 @@
-# VSCode extension pack for Richard Willis
+# VSCode Extension Pack for Richard Willis
 
 Search for "Richard Willis Extension Pack" in the extensions panel in vscode to install.
 
 👉 [Create your own extension pack](https://code.visualstudio.com/blogs/2017/03/07/extension-pack-roundup)
 
-## Settings
+## Recommended Settings
 
 ```json
 {
@@ -13,6 +13,9 @@ Search for "Richard Willis Extension Pack" in the extensions panel in vscode to 
     "statusBar.noFolderBackground": "#000000"
   },
   "workbench.startupEditor": "newUntitledFile",
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "java.implementationsCodeLens.enabled": true,
@@ -22,7 +25,13 @@ Search for "Richard Willis Extension Pack" in the extensions panel in vscode to 
   "editor.renderWhitespace": "all",
   "editor.suggestSelection": "first",
   "editor.formatOnSave": false,
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": true,
   "eslint.autoFixOnSave": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "python.jediEnabled": false,
   "gitlens.codeLens.enabled": false,
@@ -30,6 +39,9 @@ Search for "Richard Willis Extension Pack" in the extensions panel in vscode to 
     "references": false,
     "runtest": true
   },
+  "html.suggest.html5": true,
+  "html.validate.scripts": true,
+  "html.validate.styles": true,
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format",
     "editor.formatOnSave": true
@@ -58,6 +70,10 @@ Search for "Richard Willis Extension Pack" in the extensions panel in vscode to 
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
+  "[xml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
@@ -67,6 +83,10 @@ Search for "Richard Willis Extension Pack" in the extensions panel in vscode to 
     "editor.formatOnSave": false
   },
   "[python]": {
+    "editor.formatOnSave": true
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   }
 }
