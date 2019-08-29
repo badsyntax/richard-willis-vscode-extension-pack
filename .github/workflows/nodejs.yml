@@ -1,7 +1,6 @@
 name: Node CI
 
-on:
-  release
+on: release
 
 jobs:
   build:
@@ -18,9 +17,10 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: package
-        run: npm install -g vsce
-        run: npm version from-git
-        run: vsce package
+        run: |
+          npm install -g vsce
+          npm version from-git
+          vsce package
       - name: publish-vsce
         env:
           AZURE_TOKEN: ${{ secrets.AZURE_TOKEN }}
