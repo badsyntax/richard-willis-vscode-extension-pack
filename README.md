@@ -79,8 +79,7 @@ Search for "Richard Willis Extension Pack" in the extensions panel in vscode to 
     "editor.formatOnSave": true
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": false
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[python]": {
     "editor.formatOnSave": true

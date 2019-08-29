@@ -1,9 +1,7 @@
 name: Node CI
 
 on:
-  push:
-    branches:
-      - master
+  release
 
 jobs:
   build:
@@ -20,20 +18,19 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: package
-        run: |
-          npm install -g vsce
-          vsce package
+        run: npm install -g vsce
+        run: npm version from-git
+        run: vsce package
       - name: publish-vsce
         env:
           AZURE_TOKEN: ${{ secrets.AZURE_TOKEN }}
         run: |
           git config --global user.email "willis.rh@gmail.com"
           git config --global user.name "Richard Willis"
-          vsce publish -p $AZURE_TOKEN patch
-
-#     - name: publish-github
-#       env:
-#         GITHUB_PUSH_TOKEN: ${{ secrets.GITHUB_PUSH_TOKEN }}
-#       run: |
-#         git remote set-url origin "https://badsyntax:$GITHUB_PUSH_TOKEN@github.com/badsyntax/richard-willis-vscode-extension-pack.git"
-#         git push origin HEAD:master
+          vsce publish -p $AZURE_TOKEN
+      # - name: publish-github
+      #   env:
+      #     GITHUB_PUSH_TOKEN: ${{ secrets.GITHUB_PUSH_TOKEN }}
+      #   run: |
+      #     git remote set-url origin "https://badsyntax:$GITHUB_PUSH_TOKEN@github.com/badsyntax/richard-willis-vscode-extension-pack.git"
+      #     git push origin HEAD:master
