@@ -12,8 +12,9 @@ jobs:
 
     steps:
       - name: Cancel if not a release publish # workaround has `on` doesn't have this filter
-        run: exit 1
-        if: github.event.action != 'published'
+        env:
+          ACTION: ${{ github.event.action }}
+        run: echo "$ACTION"
       - uses: actions/checkout@v1
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
