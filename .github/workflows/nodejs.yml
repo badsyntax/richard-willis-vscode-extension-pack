@@ -1,7 +1,6 @@
 name: Node CI
 
-on:
-  release
+on: release
 
 jobs:
   build:
@@ -12,25 +11,25 @@ jobs:
         node-version: [12.x]
 
     steps:
+      - name: Cancel if not a release publish # workaround has `on` doesn't have this filter
+        run: exit 1
+        if: github.event.action != 'published'
       - uses: actions/checkout@v1
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
       - name: package
-        run: npm install -g vsce
-        run: npm version from-git
-        run: vsce package
+        run: |
+          tag=${GITHUB_REF#refs/tags/}
+          echo "Setting package version $tag"
+          npm --no-git-tag-version version "$tag"
+          npm install -g vsce
+          vsce package
       - name: publish-vsce
         env:
           AZURE_TOKEN: ${{ secrets.AZURE_TOKEN }}
         run: |
           git config --global user.email "willis.rh@gmail.com"
           git config --global user.name "Richard Willis"
-          vsce publish -p $AZURE_TOKEN
-      # - name: publish-github
-      #   env:
-      #     GITHUB_PUSH_TOKEN: ${{ secrets.GITHUB_PUSH_TOKEN }}
-      #   run: |
-      #     git remote set-url origin "https://badsyntax:$GITHUB_PUSH_TOKEN@github.com/badsyntax/richard-willis-vscode-extension-pack.git"
-      #     git push origin HEAD:master
+          vsce publish -p "$AZURE_TOKEN"
