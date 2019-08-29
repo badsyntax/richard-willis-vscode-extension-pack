@@ -19,6 +19,7 @@ jobs:
       - name: package
         run: |
           npm install -g vsce
+          echo "Setting package version $GITHUB_REF"
           npm version "$GITHUB_REF"
           vsce package
       - name: publish-vsce
