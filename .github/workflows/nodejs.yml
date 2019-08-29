@@ -1,9 +1,7 @@
 name: Node CI
 
 on:
-  push:
-    branches:
-      - refs/tags/@badsyntax/*
+  push: tags
 
 jobs:
   build:
