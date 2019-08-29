@@ -1,7 +1,9 @@
 name: Node CI
 
 on:
-  push: tags
+  push:
+    tags:
+      - "refs/tags/*"
 
 jobs:
   build:
