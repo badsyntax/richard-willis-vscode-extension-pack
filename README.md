@@ -4,6 +4,14 @@ Search for "Richard Willis Extension Pack" in the extensions panel in vscode to 
 
 👉 [Create your own extension pack](https://code.visualstudio.com/blogs/2017/03/07/extension-pack-roundup)
 
+## Extension Release Process
+
+This extension is built and published to the extension marketplace with GitHub Actions.
+
+To publish a new version, create a new GitHub Release, bumping the tag version. This tag version will be used for the extension version.
+
+Refer to the [github workflow](./.github/workflows/nodejs.yml).
+
 ## Recommended Settings
 
 ```json
@@ -90,3 +98,7 @@ Search for "Richard Willis Extension Pack" in the extensions panel in vscode to 
   }
 }
 ```
+
+## License
+
+See [LICENSE.md](./LICENSE.md).
