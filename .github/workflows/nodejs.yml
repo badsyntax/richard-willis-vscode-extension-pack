@@ -18,9 +18,10 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: package
         run: |
+          tag=${GITHUB_REF#refs/tags/}
+          echo "Setting package version $tag"
+          npm version "$tag"
           npm install -g vsce
-          echo "Setting package version $GITHUB_REF"
-          npm version "$GITHUB_REF"
           vsce package
       - name: publish-vsce
         env:
