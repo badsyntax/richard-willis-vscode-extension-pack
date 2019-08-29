@@ -20,7 +20,7 @@ jobs:
         run: |
           tag=${GITHUB_REF#refs/tags/}
           echo "Setting package version $tag"
-          npm version "$tag"
+          npm --no-git-tag-version version "$tag"
           npm install -g vsce
           vsce package
       - name: publish-vsce
