@@ -4,11 +4,12 @@ on: release
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ${{ matrix.os-version }}
 
     strategy:
       matrix:
         node-version: [12.x]
+        os-version: [ubuntu-18.04]
 
     steps:
       - name: Cancel if not a release publish # workaround has `on` doesn't have this filter
@@ -23,17 +24,16 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: package
+      - name: Install vsce
+        run: npm install -g vsce
+      - name: Package extension
         run: |
           tag=${GITHUB_REF#refs/tags/}
           echo "Setting package version $tag"
           npm --no-git-tag-version version "$tag"
-          npm install -g vsce
           vsce package
-      - name: publish-vsce
+      - name: Publish extension to marketplace
         env:
           AZURE_TOKEN: ${{ secrets.AZURE_TOKEN }}
         run: |
-          git config --global user.email "willis.rh@gmail.com"
-          git config --global user.name "Richard Willis"
           vsce publish -p "$AZURE_TOKEN"
