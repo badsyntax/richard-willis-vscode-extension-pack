@@ -1,6 +1,8 @@
 name: Node CI
 
-on: [release]
+on:
+  release:
+    - published
 
 jobs:
   build:
