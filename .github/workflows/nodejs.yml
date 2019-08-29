@@ -3,7 +3,7 @@ name: Node CI
 on:
   push:
     branches:
-      - refs/tags/badsyntax/*
+      - refs/tags/@badsyntax/*
 
 jobs:
   build:
