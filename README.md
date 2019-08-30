@@ -50,6 +50,9 @@ Refer to the [github workflow](./.github/workflows/nodejs.yml).
   "html.suggest.html5": true,
   "html.validate.scripts": true,
   "html.validate.styles": true,
+  "stylelint.config": {
+    "ignoreFiles": ["**/*.js", "**/*.jsx"]
+  },
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format",
     "editor.formatOnSave": true
