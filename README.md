@@ -14,6 +14,13 @@ Refer to the [github workflow](./.github/workflows/nodejs.yml).
 
 ## Recommended Settings
 
+You need to install the `Fira Code` font like so:
+
+```bash
+brew tap homebrew/cask-fonts
+brew install font-fira-code
+```
+
 ```json
 {
   "workbench.colorCustomizations": {
@@ -30,6 +37,10 @@ Refer to the [github workflow](./.github/workflows/nodejs.yml).
   "java.referencesCodeLens.enabled": true,
   "java.configuration.checkProjectSettingsExclusions": false,
   "breadcrumbs.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 14,
   "editor.renderWhitespace": "all",
   "editor.suggestSelection": "first",
   "editor.formatOnSave": false,
