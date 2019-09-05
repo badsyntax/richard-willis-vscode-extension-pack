@@ -36,6 +36,7 @@ brew install font-fira-code
   "java.implementationsCodeLens.enabled": true,
   "java.referencesCodeLens.enabled": true,
   "java.configuration.checkProjectSettingsExclusions": false,
+  "java.configuration.updateBuildConfiguration": "automatic",
   "breadcrumbs.enabled": true,
   "explorer.confirmDragAndDrop": false,
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
