@@ -22,6 +22,7 @@
     "esbenp.prettier-vscode",
     "flowtype.flow-for-vscode",
     "foxundermoon.shell-format",
+    "GabrielBB.vscode-lombok",
     "ionutvmi.path-autocomplete",
     "mkaufman.HTMLHint",
     "ms-azuretools.vscode-docker",
