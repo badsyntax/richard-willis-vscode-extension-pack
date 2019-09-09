@@ -36,6 +36,7 @@
     "shinnn.stylelint",
     "timonwong.shellcheck",
     "Tyriar.sort-lines",
-    "vscjava.vscode-java-pack"
+    "vscjava.vscode-java-pack",
+    "vscjava.vscode-java-test
   ]
 }
