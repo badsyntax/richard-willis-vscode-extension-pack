@@ -30,13 +30,16 @@
     "ms-vscode.Go",
     "msjsdiag.debugger-for-chrome",
     "naco-siren.gradle-language",
+    "orta.vscode-jest",
     "redhat.vscode-xml",
     "redhat.vscode-yaml",
     "rogalmic.bash-debug",
     "shinnn.stylelint",
+    "streetsidesoftware.code-spell-checker",
     "timonwong.shellcheck",
     "Tyriar.sort-lines",
     "vscjava.vscode-java-pack",
-    "vscjava.vscode-java-test
+    "vscjava.vscode-java-test,
+    "zxh404.vscode-proto3"
   ]
 }
