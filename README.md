@@ -72,6 +72,7 @@ brew install font-fira-code
   "stylelint.config": {
     "ignoreFiles": ["**/*.js", "**/*.jsx"]
   },
+  "window.zoomLevel": 0,
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
