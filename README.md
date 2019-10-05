@@ -17,67 +17,16 @@ brew install font-fira-code
 
 ```json
 {
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#000000",
-    "statusBar.noFolderBackground": "#000000"
-  },
-  "window.zoomLevel": 1,
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.settings.enableNaturalLanguageSearch": false,
-  "telemetry.enableCrashReporter": false,
-  "telemetry.enableTelemetry": false,
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
-  "terminal.external.osxExec": "iTerm.app",
-  "java.implementationsCodeLens.enabled": true,
-  "java.referencesCodeLens.enabled": true,
-  "java.configuration.checkProjectSettingsExclusions": false,
-  "java.configuration.updateBuildConfiguration": "automatic",
-  "breadcrumbs.enabled": true,
-  "explorer.confirmDragAndDrop": false,
-  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontLigatures": false,
-  "editor.fontSize": 13,
-  "editor.renderWhitespace": "all",
-  "editor.suggestSelection": "first",
-  "editor.formatOnSave": false,
-  "editor.smoothScrolling": true,
-  "editor.cursorBlinking": "smooth",
-  "editor.cursorSmoothCaretAnimation": true,
-  "editor.tabSize": 2,
-  "editor.insertSpaces": true,
-  "editor.detectIndentation": true,
-  "eslint.autoFixOnSave": true,
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "python.jediEnabled": false,
-  "gitlens.codeLens.enabled": false,
-  "go.enableCodeLens": {
-    "references": false,
-    "runtest": true
-  },
-  "jest.pathToJest": "npm test --",
-  "jest.debugCodeLens.showWhenTestStateIn": [
-    "fail",
-    "unknown",
-    "pass"
-  ],
-  "jest.autoEnable": false,
-  "html.suggest.html5": true,
-  "html.validate.scripts": true,
-  "html.validate.styles": true,
-  "stylelint.config": {
-    "ignoreFiles": ["**/*.js", "**/*.jsx"]
-  },
-  "[shellscript]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[dockerfile]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "[css]": {
+  "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[scss]": {
+  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
@@ -89,21 +38,22 @@ brew install font-fira-code
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[html]": {
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[xml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "breadcrumbs.enabled": true,
   "cSpell.enabledLanguageIds": [
     "asciidoc",
     "c",
@@ -136,7 +86,60 @@ brew install font-fira-code
     "typescriptreact",
     "yaml",
     "yml"
-  ]
+  ],
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.detectIndentation": true,
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 13,
+  "editor.formatOnSave": false,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "all",
+  "editor.smoothScrolling": true,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "eslint.autoFixOnSave": true,
+  "explorer.confirmDragAndDrop": false,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "gitlens.codeLens.enabled": false,
+  "go.enableCodeLens": {
+    "references": false,
+    "runtest": true
+  },
+  "html.suggest.html5": true,
+  "html.validate.scripts": true,
+  "html.validate.styles": true,
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.implementationsCodeLens.enabled": true,
+  "java.referencesCodeLens.enabled": true,
+  "jest.autoEnable": false,
+  "jest.debugCodeLens.showWhenTestStateIn": [
+    "fail",
+    "unknown",
+    "pass"
+  ],
+  "jest.pathToJest": "npm test --",
+  "python.jediEnabled": false,
+  "stylelint.config": {
+    "ignoreFiles": [
+      "**/*.js",
+      "**/*.jsx"
+    ]
+  },
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "terminal.external.osxExec": "iTerm.app",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.zoomLevel": 1,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#000000",
+    "statusBar.noFolderBackground": "#000000"
+  },
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.startupEditor": "newUntitledFile"
 }
 ```
 
