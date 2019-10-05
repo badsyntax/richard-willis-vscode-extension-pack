@@ -14,13 +14,6 @@ jobs:
         os-version: [ubuntu-18.04]
 
     steps:
-      - name: Cancel if not a release publish # workaround has `on` doesn't have this filter
-        env:
-          ACTION: ${{ github.event.action }}
-        run: |
-          echo "Invalid release action: $ACTION"
-          exit 1
-        if: github.event.action != 'published'
       - uses: actions/checkout@v1
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
