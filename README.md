@@ -4,16 +4,16 @@ Search for "Richard Willis Extension Pack" in the extensions panel in vscode to 
 
 👉 [Create your own extension pack](https://code.visualstudio.com/blogs/2017/03/07/extension-pack-roundup)
 
-## Recommended Settings
+## Setup
 
-You need to install the `Fira Code` font like so:
+Install dependencies:
 
 ```bash
 brew tap homebrew/cask-fonts
-brew install font-fira-code
+brew install font-fira-code shellcheck
 ```
 
-<details><summary>VS Code Settings</summary>
+<details><summary>Recommended VS Code Settings</summary>
 
 ```json
 {
