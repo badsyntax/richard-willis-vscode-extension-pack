@@ -6,12 +6,12 @@ Search for "Richard Willis Extension Pack" in the extensions panel in vscode to 
 
 ## Setup
 
-Install dependencies:
-
 ```bash
 brew tap homebrew/cask-fonts
 brew install font-fira-code shellcheck
 ```
+
+## Settings
 
 <details><summary>Recommended VS Code Settings</summary>
 
@@ -144,6 +144,37 @@ brew install font-fira-code shellcheck
 ```
 
 </details>
+
+## Extensions
+
+* https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
+* https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+* https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+* https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+* https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+* https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode
+* https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format
+* https://marketplace.visualstudio.com/items?itemName=GabrielBB.vscode-lombok
+* https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete
+* https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint
+* https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
+* https://marketplace.visualstudio.com/items?itemName=ms-python.python
+* https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go
+* https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
+* https://marketplace.visualstudio.com/items?itemName=naco-siren.gradle-language
+* https://marketplace.visualstudio.com/items?itemName=orta.vscode-jest
+* https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml
+* https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml
+* https://marketplace.visualstudio.com/items?itemName=rogalmic.bash-debug
+* https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint
+* https://marketplace.visualstudio.com/items?itemName=slb235.vscode-coffeelint
+* https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+* https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck
+* https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines
+* https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
+* https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test
+* https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3
+
 
 ## Extension Release Process
 
