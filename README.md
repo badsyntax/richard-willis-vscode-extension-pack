@@ -8,7 +8,7 @@ Search for "Richard Willis Extension Pack" in the extensions panel in vscode to 
 
 ```bash
 brew tap homebrew/cask-fonts
-brew install font-fira-code shellcheck
+brew install font-fira-code shellcheck shfmt
 ```
 
 ## Settings
@@ -87,6 +87,7 @@ brew install font-fira-code shellcheck
     "yaml",
     "yml"
   ],
+  "cSpell.language": "en-GB",
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.detectIndentation": true,
@@ -147,33 +148,33 @@ brew install font-fira-code shellcheck
 
 ## Extensions
 
-* https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
-* https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-* https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
-* https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
-* https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
-* https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode
-* https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format
-* https://marketplace.visualstudio.com/items?itemName=GabrielBB.vscode-lombok
-* https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete
-* https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint
-* https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
-* https://marketplace.visualstudio.com/items?itemName=ms-python.python
-* https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go
-* https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
-* https://marketplace.visualstudio.com/items?itemName=naco-siren.gradle-language
-* https://marketplace.visualstudio.com/items?itemName=orta.vscode-jest
-* https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml
-* https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml
-* https://marketplace.visualstudio.com/items?itemName=rogalmic.bash-debug
-* https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint
-* https://marketplace.visualstudio.com/items?itemName=slb235.vscode-coffeelint
-* https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
-* https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck
-* https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines
-* https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
-* https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test
-* https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3
+* [bash-debug](https://marketplace.visualstudio.com/items?itemName=rogalmic.bash-debug)
+* [code-spell-checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+* [debugger-for-chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
+* [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+* [flow-for-vscode](https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode)
+* [gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+* [Go](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go)
+* [gradle-language](https://marketplace.visualstudio.com/items?itemName=naco-siren.gradle-language)
+* [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint)
+* [path-autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete)
+* [prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+* [python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+* [shell-format](https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format)
+* [shellcheck](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck)
+* [sort-lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)
+* [stylelint](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint)
+* [vscode-coffeelint](https://marketplace.visualstudio.com/items?itemName=slb235.vscode-coffeelint)
+* [vscode-docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+* [vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [vscode-java-pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+* [vscode-java-test](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test)
+* [vscode-jest](https://marketplace.visualstudio.com/items?itemName=orta.vscode-jest)
+* [vscode-lombok](https://marketplace.visualstudio.com/items?itemName=GabrielBB.vscode-lombok)
+* [vscode-markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+* [vscode-proto3](https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3)
+* [vscode-xml](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
+* [vscode-yaml](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 
 
 ## Extension Release Process
