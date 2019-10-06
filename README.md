@@ -168,7 +168,6 @@ brew install font-fira-code shellcheck shfmt
 * [vscode-docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 * [vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 * [vscode-java-pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
-* [vscode-java-test](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test)
 * [vscode-jest](https://marketplace.visualstudio.com/items?itemName=orta.vscode-jest)
 * [vscode-lombok](https://marketplace.visualstudio.com/items?itemName=GabrielBB.vscode-lombok)
 * [vscode-markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
