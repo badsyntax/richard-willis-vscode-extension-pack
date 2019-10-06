@@ -1,6 +1,6 @@
 # VSCode Extension Pack for Richard Willis
 
-![](https://github.com/badsyntax/richard-willis-vscode-extension-pack/workflows/Node%20CI/badge.svg) ![](https://img.shields.io/visual-studio-marketplace/i/richardwillis.richard-willis-extension-pack) ![](https://img.shields.io/visual-studio-marketplace/v/richardwillis.richard-willis-extension-pack)
+![](https://github.com/badsyntax/richard-willis-vscode-extension-pack/workflows/Node%20CI/badge.svg) ![](https://img.shields.io/visual-studio-marketplace/i/richardwillis.richard-willis-extension-pack)
 
 Search for "Richard Willis Extension Pack" in the extensions panel in vscode to install.
 
