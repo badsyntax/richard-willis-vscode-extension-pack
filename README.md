@@ -153,7 +153,8 @@ brew install font-fira-code shellcheck shfmt
     "!Ref",
     "!Select sequence",
     "!Split sequence",
-    "!Sub"
+    "!Sub",
+    "!If sequence"
   ]
 }
 ```
