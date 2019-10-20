@@ -111,6 +111,7 @@ brew install font-fira-code shellcheck shfmt
     "references": false,
     "runtest": true
   },
+  "gradle.useCommand": "./gradlew",
   "html.suggest.html5": true,
   "html.validate.scripts": true,
   "html.validate.styles": true,
@@ -182,6 +183,7 @@ brew install font-fira-code shellcheck shfmt
 * [vscode-coffeelint](https://marketplace.visualstudio.com/items?itemName=slb235.vscode-coffeelint)
 * [vscode-docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 * [vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [vscode-gradle](https://marketplace.visualstudio.com/items?itemName=richardwillis.vscode-gradle)
 * [vscode-java-pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 * [vscode-jest](https://marketplace.visualstudio.com/items?itemName=orta.vscode-jest)
 * [vscode-lombok](https://marketplace.visualstudio.com/items?itemName=GabrielBB.vscode-lombok)
