@@ -111,7 +111,7 @@ brew install font-fira-code shellcheck shfmt
     "references": false,
     "runtest": true
   },
-  "gradle.useCommand": "./gradlew",
+  "gradle.enableTasksExplorer": true,
   "html.suggest.html5": true,
   "html.validate.scripts": true,
   "html.validate.styles": true,
@@ -126,6 +126,7 @@ brew install font-fira-code shellcheck shfmt
     "pass"
   ],
   "jest.pathToJest": "npm test --",
+  "npm.enableScriptExplorer": true,
   "python.jediEnabled": false,
   "stylelint.config": {
     "ignoreFiles": [
