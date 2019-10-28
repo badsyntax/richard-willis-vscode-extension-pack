@@ -7,13 +7,17 @@
   "license": "SEE LICENSE IN LICENSE.md",
   "description": "Extension pack for Richard Willis",
   "homepage": "https://github.com/badsyntax/richard-willis-vscode-extension-pack",
-  "repository": "https://github.com/badsyntax/richard-willis-vscode-extension-pack",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/badsyntax/richard-willis-vscode-extension-pack"
+  },
   "engines": {
     "vscode": "^1.36.0"
   },
   "categories": [
     "Extension Packs"
   ],
+  "icon": "icon.png",
   "extensionPack": [
     "DavidAnson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
