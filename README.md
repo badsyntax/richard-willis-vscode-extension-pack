@@ -143,6 +143,7 @@ brew install font-fira-code shellcheck shfmt
     "statusBar.background": "#000000",
     "statusBar.noFolderBackground": "#000000"
   },
+  "workbench.settings.editor": "json",
   "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.startupEditor": "newUntitledFile",
   "yaml.customTags": [
